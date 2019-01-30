@@ -19,3 +19,8 @@ Route::get('/', function () {
 Route::get('noticias', function () {
     return view('noticias');
 });
+
+
+Route::get('lista-autoridades', function () {
+    return view('lista-autoridades');
+});

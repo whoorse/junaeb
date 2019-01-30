@@ -73,6 +73,7 @@
                 <ul id="menu-main-menu" class="menu-main">
                     <li><a href="/">Inicio</a></li>
                     <li><a href="{{ 'noticias' }}">Noticias</a></li>
+                    <li><a href="{{ 'lista-autoridades' }}">Ministros</a></li>
                 </ul>
             </nav>
 
@@ -91,13 +92,13 @@
                     @yield('contenido')
                 </div>
 
-                <div class="buscar clearfix">
+                {{-- <div class="buscar clearfix">
                     <form action="">
                         <label for="query">Busca en las noticias</label>
                         <input type="text" id="query" placeholder="Ej.:“Lorem Ipsum“ ">
                         <input type="submit" id="boton" value="Enviar">
                     </form>
-                </div>
+                </div> --}}
 
                 <div class="banner banner-foto">
                     <a href="#">
