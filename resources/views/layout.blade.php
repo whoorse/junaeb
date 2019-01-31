@@ -71,7 +71,7 @@
             <nav id="menu-principal">
                 <ul id="menu-main-menu" class="menu-main">
                     <li><a href="/">Inicio</a></li>
-                    <li><a href="{{ 'noticia.index' }}">Noticias</a></li>
+                    <li><a href="{{ 'noticias' }}">Noticias</a></li>
                     <li><a href="{{ 'lista-autoridades' }}">Ministros</a></li>
                 </ul>
             </nav>
@@ -102,13 +102,13 @@
                 <div class="banner banner-foto">
                     <a href="#">
                         <div class="imagen">
-                            <img src="http://placehold.it/660x130" alt="">
+                            <a href="https://www.junaeb.cl/archivos/38706"><img width="100%" src="../../img/ultimos-dias-para-sacarse-la-foto.jpg" alt=""></a>
                         </div>
-                        <div class="velo"></div>
+                       {{--  <div class="velo"></div>
                         <div class="texto">
                             <span>Lorem Ipsum</span>
                             <span><strong>Dolor sit amet.</strong></span>
-                        </div>
+                        </div> --}}
                     </a>
                 </div>
 

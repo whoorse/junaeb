@@ -15,7 +15,8 @@ class NoticiaController extends Controller
     public function index()
     {
         $noticiasList = DB::table('noticias')->get();
-        return view('noticia.index', compact('noticiasList'));
+        
+        return view('noticia.index', ['noticias' => $noticiasList]);
     }
 
     /**
