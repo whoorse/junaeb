@@ -21,7 +21,6 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="../../css/main.css">
         <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"  />
-
     </head>
     <body>
 
@@ -72,7 +71,7 @@
             <nav id="menu-principal">
                 <ul id="menu-main-menu" class="menu-main">
                     <li><a href="/">Inicio</a></li>
-                    <li><a href="{{ 'noticias' }}">Noticias</a></li>
+                    <li><a href="{{ 'noticia.index' }}">Noticias</a></li>
                     <li><a href="{{ 'lista-autoridades' }}">Ministros</a></li>
                 </ul>
             </nav>

@@ -16,11 +16,14 @@ Route::get('/', function () {
 });
 
 
-Route::get('noticias', function () {
-    return view('noticias');
-});
-
 
 Route::get('lista-autoridades', function () {
     return view('lista-autoridades');
 });
+
+
+// NOTICIAS
+Route::get('noticias', ['as' => 'noticia.index', 'uses' => 'NoticiaController@index']);
+Route::get('noticias/create', ['as' => 'noticia.create', 'uses' => 'NoticiaController@create']);
+Route::post('noticias', ['as' => 'noticia.store', 'uses' => 'NoticiaController@store']);
+Route::get('noticias/{id}', ['as' => 'noticia.show', 'uses' => 'NoticiaController@show']);
